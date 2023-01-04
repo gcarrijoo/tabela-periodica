@@ -1,0 +1,173 @@
+*{
+	margin: 15px;
+	font-family: arial;
+}
+
+#info-ele{
+	display: none;
+}
+
+td{
+	width: 100px;
+}
+td:hover{
+	cursor: pointer;
+}
+tr{
+	height: 50px;
+	text-align: center;
+}
+.ele, .eleHi, .eleOM, .eleH, .eleAl, .eleAlT, .eleS, .eleA, .eleGN, .eleL, .eleAC, .txt, .espA{
+	border: 1px solid #c3c3c3;
+}
+.ele{
+	background: #e3d3e4;
+}
+.eleHi{
+	background: #fafafa;
+}
+.eleAl{
+	background: #f9c80e;
+}
+.eleAlT{
+	background: #f86624;
+}
+.eleGN{
+	background: #662e9b;
+}
+.eleA{
+	background: #00a6a6;
+}
+.eleS{
+	background: #ea3546;
+}
+.eleL, .txtL{
+	background: #cafe48;
+}
+.eleAC, .txtAC{
+	background: #054a91;
+}
+.eleH{
+	background: #00e0e0;
+}
+.eleOM{
+	background: #c3a1e3;
+}
+.espA1{
+	background: #fff;
+}
+.espA2{
+	background: #fff;
+}
+
+/*HIDROGENIO*/
+.info{
+	width: 350px;
+	height: 200px;
+	border: 1px solid #c3c3c3;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 5px 5px 5px #c3c3c3;
+	margin-left: 35%;
+	margin-top: 50px;
+}
+#hidrogenio{
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	background: #fafafa;
+	border-radius: 10px;
+}
+.na{
+	float: left;
+}
+.sq{
+	margin-top: 55px;
+}
+.completo{
+	text-align: left;
+}
+
+/*LITIO, SODIO, POTASSIO, RUBIDIO, CESSIO, FRANCIO*/
+#litio, #sodio, #potassio, #rubidio, #cessio, #francio{
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	background: #f9c80e;
+	border-radius: 10px;
+}
+
+/*BERILIO, MAGNESIO, CALCIO, ESTRONCIO, BARIO, RADIO*/
+#berilio, #magnesio, #calcio, #estroncio, #bario, #radio{
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	background: #f86624;
+	border-radius: 10px;
+}
+
+/*ESCANDIO, ITRIO*/
+#escandio, #itrio, #titanio, #zirconio, #hafnio, #rutherfordio, #vanadio, #niobio, #tantalo, #dubnio, #cromio, #molibdenio, #tungstenio, #seaborgio, #manganes, #tecnecio, #renio, #borio, #ferro, #rutenio, #osmio, #hassio, #cobalto, #rodio, #iridio, #meitnerio, #niquel, #paladio, #platina, #darmstadtio, #cobre, #prata, #ouro, #roentgenio, #zinco, #cadmio, #mercurio, #copernicio{
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	background: #e3d3e4;
+	border-radius: 10px;
+}
+
+#aluminio, #galio, #indio, #talio, #nihonio, #estanho, #chumbo, #flerovio, #bismuto, #moscovio, #livermordio{
+	background: #00e0e0;
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+}
+
+#boro, #silicio, #germanio, #arsenio, #antimonio, #telurio, #polonio{
+	background: #ea3546;
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+}
+
+#carbono, #nitrogenio, #oxigenio, #fosforo, #enxofre, #selenio{
+	background: #00a6a6;
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+}
+
+#fluor, #cloro, #bromo, #iodo, #astato, #tenessino{
+	background: #00e0e0;
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+}
+
+#helio, #neonio, #argonio, #criptonio, #xenonio, #radonio, #oganessonio{
+	background: #662e9b;
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+}
+
+#lantanio, #cerio, #praseodimio, #neodimio, #promecio, #samario, #europio, #gadolinio, #terbio, #disprosio, #holmio, #erbio, #tulio, #iterbio, #lutecio{
+	background: #cafe48;
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+}
+
+#actinio, #torio, #protactinio, #uranio, #netunio, #plutonio, #americio, #curio, #berquelio, #californio, #einstenio, #fermio, #mendelevio, #nobelio, #laurencio{
+	background: #054a91;
+	width: 100px;
+	height: 155px;
+	border: 1px solid #c3c3c3;
+	border-radius: 10px;
+}
